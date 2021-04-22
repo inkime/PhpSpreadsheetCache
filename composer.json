@@ -1,8 +1,11 @@
 {
-  "name": "inkime/PhpSpreadsheetCache",
+  "name": "inkime/phpspreadsheetcache",
   "description": "a cache component of PhpSpreadsheet",
   "minimum-stability": "stable",
   "license": "MIT",
+  "keywords": [
+    "phpspreadsheet"
+  ],
   "authors": [
     {
       "name": "caozelin",
