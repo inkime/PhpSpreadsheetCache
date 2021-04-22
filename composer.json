@@ -1,0 +1,20 @@
+{
+  "name": "inkime/PhpSpreadsheetCache",
+  "description": "a cache component of PhpSpreadsheet",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "caozelin",
+      "email": "heykaka1020@163.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "inkime\\Phpspreadsheetcache\\": "src/"
+    }
+  }
+}

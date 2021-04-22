@@ -9,7 +9,7 @@
  *  +----------------------------------------------------------------
  */
 
-namespace library;
+namespace Phpspreadsheetcache;
 
 
 class Cache

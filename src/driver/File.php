@@ -9,7 +9,7 @@
  *  +----------------------------------------------------------------
  */
 
-namespace library\driver;
+namespace Phpspreadsheetcache\driver;
 
 use Psr\SimpleCache\CacheInterface;
 
