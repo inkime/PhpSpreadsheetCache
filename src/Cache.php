@@ -56,11 +56,12 @@ class Cache
      * 自动初始化缓存
      * @access public
      * @param array $options 配置数组
+     * @param boolean $force 强制切换缓存引擎
      * @return Driver
      */
-    public static function init(array $options = [])
+    public static function init(array $options = [], $force = false)
     {
-        if (is_null(self::$handler)) {
+        if (is_null(self::$handler) || $force === true) {
             self::$handler = self::connect($options);
         }
 
