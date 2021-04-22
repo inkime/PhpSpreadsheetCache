@@ -40,7 +40,7 @@ class Cache
         }
 
         if (true === $name || !isset(self::$instance[$name])) {
-            $class = false === strpos($type, '\\') ? '\\library\\driver\\' . ucwords($type) : $type;
+            $class = false === strpos($type, '\\') ? '\\Phpspreadsheetcache\\driver\\' . ucwords($type) : $type;
 
             if (true === $name) {
                 return new $class($options);
