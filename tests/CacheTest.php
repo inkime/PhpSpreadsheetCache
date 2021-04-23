@@ -9,7 +9,7 @@ class CacheTest extends \PHPUnit\Framework\TestCase
 {
     public function testFile()
     {
-        $cacheDir = dirname(__FILE__) . '/data';
+        $cacheDir = dirname(__FILE__) . '/_files';
         $config = [
             'type' => 'File',
             'path' => $cacheDir, // 文件缓存路径

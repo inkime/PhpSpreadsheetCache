@@ -7,7 +7,7 @@ PhpSpreadsheet 在工作表中平均每个单元格使用约 1k，因此大型�
 
 这使您可以减少大型工作簿的内存使用量，尽管以访问单元数据的速度为代价。 
 
-自定义缓存必须实现 Psr\SimpleCache\CacheInterface 接口
+自定义缓存必须先引入 psr/simple-cache:^1.0 包并实现 Psr\SimpleCache\CacheInterface 接口
 
 获取更多信息，请参考[PhpSpreadsheet官方文档](https://phpspreadsheet.readthedocs.io/en/stable/)
 
