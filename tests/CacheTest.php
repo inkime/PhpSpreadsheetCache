@@ -24,7 +24,7 @@ class CacheTest extends \PHPUnit\Framework\TestCase
     {
         $config = [
             'type' => 'Redis',
-            'host' => '192.168.238.108',
+            'host' => '127.0.0.1',
             'port' => 6379,
             'password' => '123456',
             'select' => '1',

@@ -14,7 +14,7 @@ PhpSpreadsheet 在工作表中平均每个单元格使用约 1k，因此大型�
 #### PhpSpreadsheetCache 提供了自定义缓存组件的实现
 
 Composer安装：
->composer require phpspreadsheetcache:^1.4
+>composer require inkime/phpspreadsheetcache:^1.4
 
 使用示例：
 ~~~
